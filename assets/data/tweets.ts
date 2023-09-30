@@ -9,7 +9,7 @@ const tweets = [
         'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/vadim.png',
     },
     createdAt: '2020-08-27T12:00:00.000Z',
-    content: 'Can you please check if the Subscribe button on Youtube works?',
+    content: 'hey Can you please check if the Subscribe button on Youtube works?',
     image:
       'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/thumbnail.png',
     numberOfComments: 123,
@@ -17,7 +17,7 @@ const tweets = [
     numberOfLikes: 10,
   },
   {
-    id: '111111111',
+    id: 't1',
     createdAt: '2023-04-28T08:30:00.000Z',
     user: {
       id: '123456789',
@@ -34,7 +34,7 @@ const tweets = [
     impressions: 500,
   },
   {
-    id: '222222222',
+    id: 't2',
     createdAt: '2023-04-27T19:45:00.000Z',
     user: {
       id: '987654321',
@@ -51,7 +51,7 @@ const tweets = [
     impressions: 1000,
   },
   {
-    id: '333333333',
+    id: 't3',
     createdAt: '2023-04-26T12:00:00.000Z',
     user: {
       id: '123456789',
@@ -68,7 +68,7 @@ const tweets = [
     impressions: 1000,
   },
   {
-    id: 't1',
+    id: 't4',
     user: {
       id: 'u1',
       username: 'VadimNotJustDev',
@@ -86,7 +86,7 @@ const tweets = [
     numberOfLikes: 10,
   },
   {
-    id: 't2',
+    id: 't5',
     user: {
       id: 'u1',
       username: 'VadimNotJustDev',
@@ -102,7 +102,7 @@ const tweets = [
     numberOfLikes: 99,
   },
   {
-    id: 't3',
+    id: 't6',
     user: {
       id: 'u1',
       username: 'VadimNotJustDev',
@@ -117,7 +117,7 @@ const tweets = [
     numberOfLikes: 99,
   },
   {
-    id: 't4',
+    id: 't7',
     user: {
       id: 'u1',
       username: 'VadimNotJustDev',

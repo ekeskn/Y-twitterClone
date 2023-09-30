@@ -1,14 +1,16 @@
-import { StyleSheet, Image, Text, View } from "react-native";
+import { StyleSheet, Image, Text, View,Pressable } from "react-native";
 import { TweetType } from "../types";
 import { Entypo} from "@expo/vector-icons";
 import IconButton from "./IconButton";
+import { Link } from "expo-router";
 type TweetProps = {
   tweet: TweetType;
 };
 
 const Tweet = ({ tweet }: TweetProps) => {
   return (
-    <View style={styles.container}>
+    <Link href={`/tweet/${tweet.id}`} asChild>
+    <Pressable style={styles.container}>
       <Image source={{ uri: tweet.user.image }} style={styles.userImage} />
 
       <View style={styles.main_container}>
@@ -20,13 +22,13 @@ const Tweet = ({ tweet }: TweetProps) => {
             size={18}
             color="grey"
             style={{ marginLeft: "auto" }}
-          />
+            />
         </View>
 
         <Text style={styles.content}>{tweet.content}</Text>
         {tweet.image && (
           <Image source={{ uri: tweet.image }} style={styles.Image} />
-        )}
+          )}
         <View style={styles.footer}>
           <IconButton icon='comment' text={tweet.numberOfComments}/>
           <IconButton icon='retweet' text={tweet.numberOfRetweets} />
@@ -35,7 +37,8 @@ const Tweet = ({ tweet }: TweetProps) => {
           <IconButton icon='share-apple' /> 
         </View>
       </View>
-    </View>
+    </Pressable>
+          </Link>
   );
 };
 

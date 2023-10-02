@@ -11,5 +11,5 @@ export default function TweetScreen() {
   if(!tweet){
     return <Text>Tweet {id} not fould</Text>
   }
-  return <Tweet tweet={ tweet} />;
+  return <Tweet tweet={tweet} />;
 }

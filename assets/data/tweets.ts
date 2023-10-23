@@ -3,15 +3,15 @@ const tweets = [
     id: 't0',
     user: {
       id: 'u1',
-      username: 'VadimNotJustDev',
-      name: 'Vadim',
+      username: 'MadameYara',
+      name: 'Yara Bertnard',
       image:
-        'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/vadim.png',
+        'https://randomuser.me/api/portraits/women/83.jpg',
     },
     createdAt: '2020-08-27T12:00:00.000Z',
-    content: 'hey Can you please check if the Subscribe button on Youtube works?',
+    content: 'Did you see that famous picsum?',
     image:
-      'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/thumbnail.png',
+      'https://fastly.picsum.photos/id/626/536/354.jpg?hmac=38nav2euZtyYrr-JBIw9i1PcfsEkrzZ-LnB5MVtGZds',
     numberOfComments: 123,
     numberOfRetweets: 11,
     numberOfLikes: 10,
@@ -21,10 +21,10 @@ const tweets = [
     createdAt: '2023-04-28T08:30:00.000Z',
     user: {
       id: '123456789',
-      name: 'Jeff B',
-      username: 'bezos',
+      name: 'Kath Cunan',
+      username: 'kcun',
       image:
-        'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/jeff.jpeg',
+        'https://randomuser.me/api/portraits/women/60.jpg',
     },
     content:
       'Just had a great workout at the gym! 💪 #fitness #healthylifestyle',
@@ -38,10 +38,10 @@ const tweets = [
     createdAt: '2023-04-27T19:45:00.000Z',
     user: {
       id: '987654321',
-      name: 'Zuck',
-      username: 'zuck',
+      name: 'Jacob Montro',
+      username: 'JeyMo',
       image:
-        'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/zuck.jpeg',
+        'https://randomuser.me/api/portraits/men/22.jpg',
     },
     content: 'Had an amazing surf session this morning',
     image: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/8.jpg',
@@ -55,10 +55,10 @@ const tweets = [
     createdAt: '2023-04-26T12:00:00.000Z',
     user: {
       id: '123456789',
-      name: 'Jane Smith',
-      username: 'janesmith',
+      name: 'Holly Alford',
+      username: 'HollyA! ',
       image:
-        'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/6.png',
+        'https://randomuser.me/api/portraits/women/4.jpg',
     },
     content:
       'Excited to announce that I will be speaking at the upcoming tech conference in San Francisco! 🎉 #womenintech',
@@ -71,10 +71,10 @@ const tweets = [
     id: 't4',
     user: {
       id: 'u1',
-      username: 'VadimNotJustDev',
-      name: 'Vadim',
+      username: 'EFost',
+      name: 'Elliott Foster',
       image:
-        'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/vadim.png',
+        'https://randomuser.me/api/portraits/women/12.jpg',
     },
     createdAt: '2020-08-27T12:00:00.000Z',
     content:
@@ -89,10 +89,10 @@ const tweets = [
     id: 't5',
     user: {
       id: 'u1',
-      username: 'VadimNotJustDev',
-      name: 'Vadim',
+      username: 'Shan',
+      name: 'Dale Shannon',
       image:
-        'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/vadim.png',
+        'https://randomuser.me/api/portraits/women/94.jpg',
     },
     createdAt: '2020-08-27T12:00:00.000Z',
     content:
@@ -105,10 +105,10 @@ const tweets = [
     id: 't6',
     user: {
       id: 'u1',
-      username: 'VadimNotJustDev',
-      name: 'Vadim',
+      username: 'HoffingAround',
+      name: 'Derek Hoffman',
       image:
-        'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/vadim.png',
+        'https://randomuser.me/api/portraits/men/4.jpg',
     },
     createdAt: '2020-08-27T12:00:00.000Z',
     content: 'Hello World',
@@ -120,10 +120,10 @@ const tweets = [
     id: 't7',
     user: {
       id: 'u1',
-      username: 'VadimNotJustDev',
-      name: 'Vadim',
+      username: 'Joseph Fisher',
+      name: 'Jfish',
       image:
-        'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/vadim.png',
+      'https://randomuser.me/api/portraits/men/44.jpg',
     },
     createdAt: '2020-08-27T12:00:00.000Z',
     content:
